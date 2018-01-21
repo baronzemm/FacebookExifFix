@@ -126,7 +126,7 @@ public class FacebookExifFix {
                 
             }
             
-            System.out.println("Success");
+            System.out.println("Success - " + p.toString());
 
         } catch (IOException ex) {
             Logger.getLogger(FacebookExifFix.class.getName()).log(Level.SEVERE, null, ex);
